@@ -234,7 +234,7 @@ function _setupEvents() {
       }, _el.refreshTimeout);
     } else {
       if (_shared.state === 'refreshing') {
-        return;
+        // return;
       }
 
       _el.ptrElement.style[_el.cssProp] = '0px';
